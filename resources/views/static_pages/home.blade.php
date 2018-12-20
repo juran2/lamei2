@@ -1,7 +1,12 @@
 @extends('layouts.default')
 
-@section('title', '')
-
 @section('content')
-  <h1>主页</h1>
+  <div class="jumbotron">
+    <p>
+      一切，将从这里开始。
+    </p>
+    <p>
+      <a class="btn btn-lg btn-success" href="#" role="button">现在注册</a>
+    </p>
+  </div>
 @stop
